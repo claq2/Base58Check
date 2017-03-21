@@ -1,9 +1,15 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base58Check", "Base58Check\Base58Check.csproj", "{EBA849DC-96F3-42AC-8389-CD9D24047F41}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{DF425671-6BA3-4A59-802C-D89423D07A47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base58Check.Phone81", "Base58Check.Phone81\Base58Check.Phone81.csproj", "{4E297735-266E-4D30-83AE-547021E50BB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Phone81", "Tests.Phone81\Tests.Phone81.csproj", "{7C834708-C619-4517-BBA0-0F3FE083F1DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +25,14 @@ Global
 		{DF425671-6BA3-4A59-802C-D89423D07A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF425671-6BA3-4A59-802C-D89423D07A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF425671-6BA3-4A59-802C-D89423D07A47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E297735-266E-4D30-83AE-547021E50BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E297735-266E-4D30-83AE-547021E50BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E297735-266E-4D30-83AE-547021E50BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E297735-266E-4D30-83AE-547021E50BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C834708-C619-4517-BBA0-0F3FE083F1DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C834708-C619-4517-BBA0-0F3FE083F1DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C834708-C619-4517-BBA0-0F3FE083F1DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C834708-C619-4517-BBA0-0F3FE083F1DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

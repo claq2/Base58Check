@@ -131,7 +131,7 @@ namespace Base58Check
         private static byte[] _GetCheckSum(byte[] data)
         {
 #if PORTABLE
-            var hasher = WinRTCrypto.HashAlgorithmProvider.OpenAlgorithm(PCLCrypto.HashAlgorithm.Sha256);
+            var hasher = WinRTCrypto.HashAlgorithmProvider.OpenAlgorithm(HashAlgorithm.Sha256);
             var hash1 = hasher.HashData(data);
             var hash2 = hasher.HashData(hash1);
 #else

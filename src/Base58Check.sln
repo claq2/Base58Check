@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base58Check", "Base58Check\Base58Check.csproj", "{EBA849DC-96F3-42AC-8389-CD9D24047F41}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base58Check.Phone81", "Base58Check.Phone81\Base58Check.Phone81.csproj", "{4E297735-266E-4D30-83AE-547021E50BB3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Phone81", "Tests.Phone81\Tests.Phone81.csproj", "{7C834708-C619-4517-BBA0-0F3FE083F1DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base58CheckStandard", "Base58CheckStandard\Base58CheckStandard.csproj", "{734925BC-1721-4851-AC2F-604F881B30AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +35,15 @@ Global
 		{7C834708-C619-4517-BBA0-0F3FE083F1DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C834708-C619-4517-BBA0-0F3FE083F1DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C834708-C619-4517-BBA0-0F3FE083F1DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{734925BC-1721-4851-AC2F-604F881B30AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{734925BC-1721-4851-AC2F-604F881B30AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{734925BC-1721-4851-AC2F-604F881B30AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{734925BC-1721-4851-AC2F-604F881B30AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D3DF983-DEDA-4851-B7E2-5168E30BCDFA}
 	EndGlobalSection
 EndGlobal

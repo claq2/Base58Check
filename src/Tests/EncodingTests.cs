@@ -4,6 +4,7 @@ using NUnit.Framework;
 
 namespace Tests
 {
+    [TestFixture]
     public class EncodingTests
     {
         // Test cases from https://github.com/bitcoin/bitcoin/blob/master/src/test/base58_tests.cpp
